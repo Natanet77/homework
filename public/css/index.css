@@ -31,11 +31,11 @@ h1 {
   color: white;
 }
 
-.card-body > li {
+ul > li {
   background: red;
 }
 
-button + span {
+.header-button + span {
   background: red;
 }
 
