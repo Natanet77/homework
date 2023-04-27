@@ -31,7 +31,7 @@ h1 {
   color: white;
 }
 
-ul > li {
+.lesson-one-task-eight ul > li {
   background: red;
 }
 
@@ -49,15 +49,15 @@ ul > li {
   background: yellow;
 }
 
-.first-task :first-child {
+.first-task li:first-child {
   color: white;
 }
 
-.second-task :first-child {
+.second-task ul:first-child li:first-child {
   color: yellow;
 }
 
-.third-task li:first-child {
+.third-task ul:last-child li:first-child {
   background: yellow;
 }
 
@@ -65,7 +65,7 @@ ul > li {
   background: yellow;
 }
 
-.five-task :last-child {
+.five-task ul:last-child li:last-child {
   color: white;
 }
 
